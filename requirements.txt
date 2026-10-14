@@ -1,0 +1,24 @@
+# Python 3.12 verwenden (Hopsworks läuft nicht mit Python 3.14 oder neuer)
+# Installieren mit:  python -m pip install -r requirements.txt
+
+# Hopsworks (Featurestore und Model Registry)
+hopsworks==5.1.1
+# Diese Pakete braucht Hopsworks, um Daten hochzuladen und zu lesen
+pyarrow==26.0.0
+confluent-kafka==2.11.1
+fastavro==1.12.0
+tqdm==4.70.1
+pyiceberg==0.11.1
+httpx==0.28.1
+
+# Daten und Modell
+pandas==2.3.3
+numpy==2.4.6
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# Wetterdaten abrufen
+requests==2.34.2
+
+# API-Key aus der Datei .env lesen
+python-dotenv==1.2.4

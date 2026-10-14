@@ -1,0 +1,9 @@
+# Zugangsdaten, gehören nie ins Repository
+.env
+
+# Das trainierte Modell liegt in der Hopsworks Model Registry
+model/
+
+# Python
+__pycache__/
+.venv/
