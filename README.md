@@ -330,6 +330,8 @@ ansehen.
 - Nur zwei Features: Bewölkung und Luftfeuchtigkeit sagen Regen nur grob
   voraus. Wind, Luftdruck oder Regen in der Umgebung würden helfen, sind aber
   bewusst weggelassen, damit das Projekt einfach bleibt.
+- Es war ein sehr trockener Sommer, deshalb könnten die Wetterdaten von 92 Tagen
+  falsch sein.
 - Zufälliger Split: Die Testdaten sind zufällig ausgewählt. Benachbarte
   Stunden sind sich sehr ähnlich, deshalb landet oft eine fast gleiche Stunde
   im Training. Das Testergebnis ist dadurch etwas zu optimistisch. Ehrlicher
